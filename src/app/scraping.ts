@@ -31,8 +31,7 @@ const login = async (
   console.log(amount,typeof amount)
 
 
-  //const amount = await page.evaluate(()=> document.querySelector('.asset-total-amount')?.innerHTML);
-  //console.log(amount)
+
 
   await browser.close()
 }
